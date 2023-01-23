@@ -42,11 +42,32 @@
                             <a class="nav-link" href="#">Contact Us <img src="images/Frame.png" alt=""> </a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-outline-success"
+                        type="submit">Free Consultation</button>
                 </div>
             </div>
         </nav>
+        <!-- Modal -->
+        <div class="modal" id="myModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Free Consultation for login now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input class="mb-1" placeholder="email" type="email" name="" id=""> <br>
+                        <input placeholder="password" type="password" name="" id="">
 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End modal -->
         <section>
             <div class="text-center card text-bg-dark">
                 <img src="images/Rectangle 6.png" class="card-img" alt="...">
